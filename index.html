@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Percentage</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <div id="text">
+    <div>
+        ⚡আজকে কোন খেলা কত উইন দিচ্ছে  আপনি সেই ভাবে খেলা করতে পারবেন লিস্ট থেকে।
+        এছাড়া আপনাকে বলব অনুগ্রহ করে একটা দান খেলার পরে কিছুটা সময় দেবেন তারপর পরবর্তী দান খেলবেন। তাড়াহুড়ো করে খেলবেন না অবশ্যই সময় নিয়ে খেলা করবেন মাথা ঠান্ডা করে ।
+    </div> <br>
+    
+    <div id="gameList">
+        <span>✔78.9%</span>  - JILI স্লটের Aztec Priestess <br>
+        <span>✔81.5%</span> - JILI স্লটের Wild Ace <br>
+        <span>✔79.1%</span> - PG স্লটের  Secrets of Cleopatra <br>
+        <span>✔59.7%</span> - PP স্লটের Gates of Olympus™<br>
+        <span>✔88.1%</span> - JILI স্লটের Mines<br>
+        <span>✔76.2%</span> - BNG স্লটের  Black Wolf <br>
+        <span>✔70.3%</span> - REVO স্লটের Alchemy Book<br>
+        <span>✔71.1%</span> - JILI স্লটের Charge Buffalo<br>
+        <span>✔79.1%</span> - Rich88 স্লটের Golden Empire<br>
+    </div><br>
+
+    <div>
+        ⚡আজকে কোন খেলা কত উইন দিচ্ছে  আপনি সেই ভাবে খেলা করতে পারবেন লিস্ট থেকে।
+        এছাড়া আপনাকে বলব অনুগ্রহ করে একটা দান খেলার পরে কিছুটা সময় দেবেন তারপর পরবর্তী দান খেলবেন। তাড়াহুড়ো করে খেলবেন না অবশ্যই সময় নিয়ে খেলা করবেন মাথা ঠান্ডা করে ।
+    </div>
+</div> <br><br>
+
+<button onclick="copyText()">Copy Text</button>
+
+    <script>
+        // Function to generate a random percentage between 70 and 88 with one decimal point
+        function generateRandomPercentage() {
+            return (Math.random() * (88 - 70) + 70).toFixed(1);
+        }
+
+        // Function to update the percentages
+        function updatePercentages() {
+            const percentages = document.querySelectorAll("#gameList span");
+            percentages.forEach(span => {
+                const newPercentage = generateRandomPercentage();
+                span.textContent = "✔" + newPercentage + "%";
+            });
+        }
+
+        // Call the update function initially
+        updatePercentages();
+
+        // Update percentages every 5 seconds
+        setInterval(updatePercentages, 5000);
+
+
+
+        function copyText() {
+            // Select the text div
+            var textElement = document.getElementById("text");
+            // Create a range object
+            var range = document.createRange();
+            // Select the text content of the text element
+            range.selectNode(textElement);
+            // Add the range to the current selection
+            window.getSelection().addRange(range);
+            // Execute the copy command
+            document.execCommand("copy");
+            // Remove the selection
+            window.getSelection().removeAllRanges();
+            // Inform the user that the text has been copied
+            alert("Text copied!");
+        }
+    </script>
+</body>
+</html>

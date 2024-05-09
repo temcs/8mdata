@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Percentage</title>
     <style>
-        /* Add your CSS styles here */
+        body{
+            color: rgb(100, 53, 0);
+        }
+        span,
+    p {
+        display: inline-block;
+    }
     </style>
 </head>
 <body>
@@ -16,51 +22,73 @@
     </div> <br>
     
     <div id="gameList">
-        <span>✔88.9%</span>  - JILI স্লটের Fortune Gems <br>
-        <span>✔79.1%</span> - PG স্লটের  Wild Bounty Showdown <br>
-        <span>✔78.9%</span>  - JILI স্লটের Aztec Priestess <br>
-        <span>✔76.2%</span> - PG স্লটের  Jurassic Kingdom <br>
-        <span>✔76.2%</span> - BNG স্লটের  Sun of Egypt 2<br>
-        <span>✔81.5%</span> - JILI স্লটের Wild Ace <br>
-        <span>✔79.1%</span> - PG স্লটের  Secrets of Cleopatra <br>
-        <span>✔76.2%</span> - BNG স্লটের  Prosperity Fortune Tree <br>
-        <span>✔59.7%</span> - PP স্লটের Gates of Olympus™<br>
-        <span>✔59.7%</span> - PP স্লটের Barn Festival <br>
-        <span>✔88.1%</span> - JILI স্লটের Mines<br>
-        <span>✔76.2%</span> - BNG স্লটের  Black Wolf <br>
-        <span>✔70.3%</span> - REVO স্লটের Alchemy Book<br>
-        <span>✔71.1%</span> - JILI স্লটের Charge Buffalo<br>
-        <span>✔79.1%</span> - Rich88 স্লটের Golden Empire<br>
-    </div><br>
+    </div><br><br>
 
     <div>
-        ✨এখান থেকে আপনি পছন্দ মত খেলা গুলি  করুন। আজকে খুবই ভালো দান যাচ্ছে এই খেলা গুলির। অবশ্যই অবশ্যই যেভাবে খেলতে
- বলা হয়েছে ওইভাবে খেলবেন আর কি ফলাফল আসে আমাদের কেউ জানাবেন। যদি দেখেন  ফলাফল তেমন আসছে না তাহলে বিরতি দেবেন তারপর আবার খেলা শুরু করবেন। আশা করি আপনি একটা ভালো ফলাফল পাবেন।
+        ⚡আজকে কোন খেলা কত উইন দিচ্ছে  আপনি সেই ভাবে খেলা করতে পারবেন লিস্ট থেকে।
+        এছাড়া আপনাকে বলব অনুগ্রহ করে একটা দান খেলার পরে কিছুটা সময় দেবেন তারপর পরবর্তী দান খেলবেন। তাড়াহুড়ো করে খেলবেন না অবশ্যই সময় নিয়ে খেলা করবেন মাথা ঠান্ডা করে ।
     </div>
 </div> <br><br>
 
 <button onclick="copyText()">Copy Data</button>
 
-    <script>
-        // Function to generate a random percentage between 70 and 88 with one decimal point
-        function generateRandomPercentage() {
-            return (Math.random() * (88 - 65) + 65).toFixed(2);
+<script>
+    // Function to generate a random number between min and max (inclusive)
+    function getRandomNumber(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+
+    // Function to update percentage
+    function updatePercentage(percentageElement) {
+        var percentage = getRandomNumber(68, 80.99).toFixed(2) + "%";
+        percentageElement.textContent = "✔ " + percentage;
+    }
+
+    // Function to update content
+    function updateContent(contentElement, usedContent) {
+        var contentOptions = [" JILI স্লটের Fortune Gems", "  PG স্লটের Wild Bounty Showdown", " JILI স্লটের Aztec Priestess", " PG স্লটের Jurassic Kingdom", " BNG স্লটের Sun of Egypt 2", " JILI স্লটের Wild Ace", "  PG স্লটের Secrets of Cleopatra", " BNG স্লটের Prosperity Fortune Tree", " PP স্লটের Gates of Olympus™", " PP স্লটের Barn Festival", "JILI স্লটের Mines", " BNG স্লটের Black Wolf", "REVO স্লটের Alchemy Book", "  JILI স্লটের Charge Buffalo", " PP স্লটের Aztec Gems Deluxe ", " BNG স্লটের  Buddha Fortune ", " PG স্লটের  Safari Wilds ", " PG স্লটের Secrets of Cleopatra ", " PG স্লটের Reel Love ", " JILI ফিসিং Bombing Fishing ", " JILI ফিসিং Golden Land ", " JILI ফিসিং Dinosaur Tycoon II ", " JILI ফিসিং Royal Fishing ", " JILI স্লটের   Super Ace ", " PG স্লটের Cruise Royale ", " BNG স্লটের Book of Wizar ", " JILI স্লটের GoRush  ", " JILI স্লটের Dragon & Tiger  ", " HAK ক্রাশ খেলা  Mines "];
+        // Filter out used content options
+        var availableOptions = contentOptions.filter(function(option) {
+            return !usedContent.includes(option);
+        });
+        if (availableOptions.length === 0) {
+            // Reset usedContent array if all options are used
+            usedContent = [];
+            availableOptions = contentOptions;
         }
+        var randomIndex = Math.floor(Math.random() * availableOptions.length);
+        var content = availableOptions[randomIndex];
+        // Add selected content to usedContent array
+        usedContent.push(content);
+        contentElement.textContent = content;
+        return usedContent;
+    }
 
-        // Function to update the percentages
-        function updatePercentages() {
-            const percentages = document.querySelectorAll("#gameList span");
-            percentages.forEach(span => {
-                const newPercentage = generateRandomPercentage();
-                span.textContent = "✔" + newPercentage + "%";
-            });
-        }
+    // Create 10 pairs of <span> and <p> elements with random content
+    var gameListDiv = document.getElementById("gameList");
+    var usedContent = []; // Array to store used content options
+    for (var i = 0; i < 10; i++) {
+        var span = document.createElement("span");
+        var p = document.createElement("p");
+        gameListDiv.appendChild(span);
+        gameListDiv.appendChild(document.createTextNode(" - "));
+        gameListDiv.appendChild(p);
+        gameListDiv.appendChild(document.createElement("br"));
+        updatePercentage(span);
+        usedContent = updateContent(p, usedContent);
+    }
 
-        // Call the update function initially
-        updatePercentages();
+    // Update percentage and content for each pair every 2 seconds
+    setInterval(function() {
+        var spans = document.querySelectorAll("#gameList span");
+        var ps = document.querySelectorAll("#gameList p");
+        spans.forEach(updatePercentage);
+        ps.forEach(function(p) {
+            usedContent = updateContent(p, usedContent);
+        });
+    }, 3000);
 
-        // Update percentages every 5 seconds
-        setInterval(updatePercentages, 2000);
+
 
 
 
@@ -78,7 +106,7 @@
             // Remove the selection
             window.getSelection().removeAllRanges();
             // Inform the user that the text has been copied
-            alert("Text copied!");
+            alert("Data copied!");
         }
     </script>
 </body>

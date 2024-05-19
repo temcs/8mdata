@@ -50,10 +50,31 @@
         border: .1px solid #ffffff;
         box-shadow: -2px -2px 6px white;
         color: #ffffff;
-}
+    }
+
+    #loading-overlay {
+        width: 150px;
+        height: 50px;
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(1, 134, 46);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+    }
+    #loading-overlay.active {
+     display: block;
+    }
     </style>
 </head>
 <body>
+    <div id="loading-overlay"></div>
     <div id="text">
     <div>
         🚀 নিচের খেলাগুলো করে আমাদের খেলোয়াড়রা ভালো উত্তোলন দিচ্ছেন আজকে। এই খেলাগুলির ভিতর থেকে খেলুন আশা করি আপনিও ভালো ফল পাবেন।
@@ -67,7 +88,7 @@
     </div>
 </div> <br><br>
 
-<button onclick="copyText()">Copy Data</button>
+<button class="copytext" onclick="copyText()">Copy Data</button>
 
 <script>
     // Function to generate a random number between min and max (inclusive)
@@ -143,8 +164,37 @@
             // Remove the selection
             window.getSelection().removeAllRanges();
             // Inform the user that the text has been copied
-            alert("Data copied!");
         }
+
+
+
+        // copy time popup 
+
+        document.addEventListener('DOMContentLoaded', function() {
+    var downloadButton = document.querySelector('.copytext');
+    var loadingOverlay = document.getElementById('loading-overlay');
+
+    downloadButton.addEventListener('click', function() {
+        // Show loading overlay
+        loadingOverlay.textContent = 'Copy Data 0%';
+        loadingOverlay.classList.add('active');
+
+        var progress = 0;
+        var interval = setInterval(function() {
+            progress += 1;
+            loadingOverlay.textContent = 'Copy Data ' + progress + '%';
+            if (progress >= 100) {
+                clearInterval(interval);
+                // Change text to "Copied"
+                loadingOverlay.textContent = 'Copied';
+                // After 2 seconds, hide loading overlay
+                setTimeout(function() {
+                    loadingOverlay.classList.remove('active');
+                }, 2000);
+            }
+        }, 8); // Adjust the interval here for faster counting
+    });
+});
     </script>
 </body>
 </html>

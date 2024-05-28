@@ -1,12 +1,25 @@
 
     body{
+        margin: 0;
+        padding: 0;
+        top: 0;
+    }
+    .main{
     width: 100%;
     height: 100vh;
     color: rgb(187, 244, 248);           
-    background-image: url(https://gifdb.com/images/file/gfycat-network-background-7ceo8pg1xxgcqj90.gif
-            
-    );
-        }
+    background-image: url(https://gifdb.com/images/file/gfycat-network-background-7ceo8pg1xxgcqj90.gif);
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    margin: 0;
+    padding: 0;
+    }
+    .sub{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     span,p {
     display: inline-block;
     }

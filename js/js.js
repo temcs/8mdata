@@ -4,7 +4,6 @@ const gameset = {
 // Sunday
 sunday: {
   "9am-3pm": [
-    "75% - BNG স্লটের Black Wolf",
     "81% - JILI ফিসিং Golden Land",
     "81% - JILI স্লটের Mines",
     "72% - REVO স্লটের Alchemy Book",
@@ -15,20 +14,21 @@ sunday: {
     "71% - JILI স্লটের Money Coming",
     "78% - PG স্লটের Candy Burst",
     "73% - HAK ক্রাশ খেলা Mines",
-    "84% - WAZ স্লটের  36 Coins Score The Jackpot"
+    "84% - WAZ স্লটের  36 Coins Score The Jackpot",
+    "75% - BNG স্লটের Black Wolf",
   ],
   "9pm-3am": [
     "72% - JILI স্লটের Wild Ace",
     "79% - JILI স্লটের Aztec Priestess",
     "78% - PG স্লটের Candy Burst",
     "71% - PG স্লটের Wild Bounty Showdown",
-    "80% - WAZ স্লটের  9 Lions"
+    "80% - WAZ স্লটের  9 Lions",
+    "85% - SPB-INST ক্রাশখেলা Aviator"
   ],
   "3am-9am": [
     "81% - JILI ফিসিং Golden Land",
     "76% - BNG স্লটের Book of Wizard",
     "69% - JILI স্লটের Dragon Treasure",
-    "73% - HAK ক্রাশ খেলা Mines",
     "85% - SPB-INST ক্রাশখেলা Aviator"
   ],
 },
@@ -39,14 +39,16 @@ monday: {
     "70% - JILI স্লটের Dragon & Tiger",
     "78% - PG স্লটের Secrets of Cleopatra",
     "71% - BNG স্লটের Sun of Egypt 2",
-    "80% - PG স্লটের  Queen Of Bounty"
+    "80% - PG স্লটের  Queen Of Bounty",
+    "85% - SPB-INST ক্রাশখেলা Aviator"
   ],
   "3pm-9pm": [
     "79% - JILI স্লটের Aztec Priestess",
     "70% - PP স্লটের Gates of Olympus™",
     "75% - JILI স্লটের Fortune Gems",
     "71% - JILI স্লটের Money Coming",
-    "83% - GG ফিশিং  Shark Hunter"
+    "83% - GG ফিশিং  Shark Hunter",
+    "85% - SPB-INST ক্রাশখেলা Aviator"
   ],
   "9pm-3am": [
     "69% - JILI স্লটের Dragon Treasure",
@@ -60,7 +62,8 @@ monday: {
     "78% - BNG স্লটের Sun of Egypt 2",
     "71% - PP স্লটের Aztec Gems Deluxe",
     "78% - BNG স্লটের Buddha Fortune",
-    "81% - PG স্লটের  Dragon Hatch 2"
+    "81% - PG স্লটের  Dragon Hatch 2",
+    "85% - SPB-INST ক্রাশখেলা Aviator"
   ],
 },
 // Tuesday
@@ -68,7 +71,6 @@ tuesday: {
   "9am-3pm": [
     "76% - JILI স্লটের Mines",
     "79% - JILI স্লটের Super Ace",
-    "71% - PP স্লটের Barn Festival",
     "79% - JILI স্লটের Aztec Priestess",
     "88% - SPB-INST ক্রাশখেলা Aviator"
   ],
@@ -76,7 +78,6 @@ tuesday: {
     "71% - PG স্লটের Wild Bounty Showdown",
     "78% - PG স্লটের Candy Burst",
     "76% - BNG স্লটের Book of Wizard",
-    "73% - HAK ক্রাশ খেলা Mines",
     "82% - WAZ স্লটের  9 Lions"
   ],
   "9pm-3am": [
@@ -84,12 +85,14 @@ tuesday: {
     "78% - PG স্লটের Secrets of Cleopatra",
     "71% - JILI স্লটের Money Coming",
     "81% - JILI ফিসিং Bombing Fishing",
+    "85% - SPB-INST ক্রাশখেলা Aviator",
     "82% - PG স্লটের  Wild Ape #3258"
   ],
   "3am-9am": [
     "71% - PP স্লটের Aztec Gems Deluxe",
     "71% - PG স্লটের Prosperity Fortune Tree",
     "81% - JILI ফিসিং Golden Land",
+    "82% - PG স্লটের  Wild Ape #3258",
     "71% - BNG স্লটের Sun of Egypt 2",
     "81% - BGM-INST ক্রাশখেলা  Plinko"
   ],
@@ -108,12 +111,12 @@ wednesday: {
     "70% - PP স্লটের Gates of Olympus™",
     "69% - JILI স্লটের Dragon Treasure",
     "73% - HAK ক্রাশ খেলা Mines",
-    "81% - GG ফিশিং  Shark Hunter"
+    "81% - GG ফিশিং  Shark Hunter",
+    "82% - PG স্লটের  Wild Ape #3258"
   ],
   "9pm-3am": [
     "78% - PG স্লটের Candy Burst",
     "76% - PP স্লটের Barn Festival",
-    "78% - BNG স্লটের Buddha Fortune",
     "78% - PG স্লটের Candy Burst",
     "84% - WAZ স্লটের  9 Lions"
   ],
@@ -122,7 +125,8 @@ wednesday: {
     "71% - PG স্লটের Symbols of Egypt",
     "79% - JILI স্লটের Super Ace",
     "75% - JILI স্লটের Charge Buffalo",
-    "85% - SPB-INST ক্রাশখেলা  Aviator"
+    "85% - SPB-INST ক্রাশখেলা  Aviator",
+    "80% - PG স্লটের  Wild Ape #3258"
   ],
 },
 
@@ -132,8 +136,9 @@ thursday: {
     "71% - JILI স্লটের Money Coming",
     "81% - JILI ফিসিং Golden Land",
     "76% - BNG স্লটের Book of Wizard",
-    "71% - PP স্লটের Aztec Gems Deluxe",
-    "84% - WAZ স্লটের  36 Coins Score The Jackpot"
+    "85% - GG ফিশিং  Shark Hunter"
+    "84% - WAZ স্লটের  36 Coins Score The Jackpot",
+    
   ],
   "3pm-9pm": [
     "71% - PG স্লটের Wild Bounty Showdown",
@@ -154,7 +159,8 @@ thursday: {
     "76% - BNG স্লটের Book of Wizard",
     "71% - PG স্লটের Wild Bounty Showdown",
     "81% - JILI ফিসিং Golden Land",
-    "80% - WAZ স্লটের  9 Lions"
+    "80% - WAZ স্লটের  9 Lions",
+    "83% - PG স্লটের  Wild Ape #3258"
   ],
 },
 // Friday
@@ -163,6 +169,7 @@ friday: {
     "71% - PG স্লটের Wild Bounty Showdown",
     "75% - JILI স্লটের Super Ace",
     "75% - BNG স্লটের Black Wolf",
+    "85% - SPB-INST ক্রাশখেলা Aviator",
     "71% - JILI স্লটের Money Coming",
     "80% - PG স্লটের  Secrets of Cleopatra"
   ],
@@ -184,6 +191,7 @@ friday: {
     "69% - JILI স্লটের Dragon Treasure",
     "71% - JILI স্লটের Money Coming",
     "75% - BNG স্লটের Black Wolf",
+    "72% - PG স্লটের  Wild Ape #3258"
     "71% - PP স্লটের Aztec Gems Deluxe",
     "85% - WAZ স্লটের  9 Lions"
   ],
@@ -191,7 +199,7 @@ friday: {
 // Saturday
 saturday: {
   "9am-3pm": [
-    "81% - JILI ফিসিং Bombing Fishing",
+    "75% - SPB-INST ক্রাশখেলা Aviator"
     "71% - BNG স্লটের Sun of Egypt 2",
     "76% - PP স্লটের Barn Festival",
     "72% - REVO স্লটের Alchemy Book",
@@ -202,7 +210,8 @@ saturday: {
     "81% - JILI ফিসিং Royal Fishing",
     "82% - JILI ফিসিং Dinosaur Tycoon II",
     "71% - BNG স্লটের Sun of Egypt 2",
-    "82% - PG স্লটের  Wild Ape #3258"
+    "82% - PG স্লটের  Wild Ape #3258",
+    "77% - BNG স্লটের Black Wolf",
   ],
   "9pm-3am": [
     "71% - PG স্লটের Prosperity Fortune Tree",
@@ -216,7 +225,8 @@ saturday: {
     "75% - JILI স্লটের Charge Buffalo",
     "70% - JILI স্লটের Dragon & Tiger",
     "70% - PP স্লটের Gates of Olympus™",
-    "81% - PG স্লটের  Queen Of Bounty"
+    "81% - PG স্লটের  Queen Of Bounty",
+    "85% - SPB-INST ক্রাশখেলা Aviator"
   ],
 },
 

@@ -191,7 +191,7 @@ friday: {
     "69% - JILI স্লটের Dragon Treasure",
     "71% - JILI স্লটের Money Coming",
     "75% - BNG স্লটের Black Wolf",
-    "72% - PG স্লটের  Wild Ape #3258"
+    "72% - PG স্লটের  Wild Ape #3258",
     "71% - PP স্লটের Aztec Gems Deluxe",
     "85% - WAZ স্লটের  9 Lions",
   ],

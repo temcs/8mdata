@@ -12,6 +12,8 @@ color: rgb(255, 255, 255);
 background-image: url(https://i.gifer.com/origin/df/df3dc4d071bd97b96b40e584d015f9d1_w200.gif);
 /* background-repeat: no-repeat;
 background-size: 100% 100%; */
+background-attachment: fixed; /* Fix the background image */
+overflow: auto; /* Allow scrolling within the .main div if content overflows */
 margin: 0;
 padding: 0;
 }

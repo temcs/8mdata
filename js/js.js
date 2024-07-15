@@ -347,3 +347,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
+// relaod 
+
+setTimeout(function() {
+  location.reload();
+}, 30 * 60 * 1000); // 30 minutes * 60 seconds * 1000 milliseconds
+
+

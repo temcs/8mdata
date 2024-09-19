@@ -4,8 +4,8 @@ const gameset = {
 // Sunday
 sunday: {
   "9am-3pm": [
-    "81% - JILI ফিসিং Golden Land",
-    "81% - JILI স্লটের Mines",
+    "81% - RG স্লটের Bubble Bliss",
+    "81% - JILI স্লটের Fortune Gems 2",
     "72% - REVO স্লটের Alchemy Book",
     "81% - PG স্লটের  Dragon Hatch 2",
   ],
@@ -13,7 +13,7 @@ sunday: {
     "75% - JILI স্লটের Fortune Gems",
     "71% - JILI স্লটের Money Coming",
     "78% - PG স্লটের Candy Burst",
-    "73% - HAK ক্রাশ খেলা Mines",
+    "73% - HAK ক্রাশ খেলা Fortune Gems 2",
     "84% - WAZ স্লটের  36 Coins Score The Jackpot",
     "75% - BNG স্লটের Black Wolf",
     "85% - JILI স্লটের Crazy Hunter",
@@ -27,7 +27,7 @@ sunday: {
     "85% - SPB-INST ক্রাশখেলা Aviator",
   ],
   "3am-9am": [
-    "81% - JILI ফিসিং Golden Land",
+    "81% - RG স্লটের Bubble Bliss",
     "76% - BNG স্লটের Book of Wizard",
     "69% - JILI স্লটের Dragon Treasure",
     "85% - SPB-INST ক্রাশখেলা Aviator",
@@ -36,7 +36,7 @@ sunday: {
 // Monday
 monday: {
   "9am-3pm": [
-    "82% - JILI ফিসিং Dinosaur Tycoon II",
+    "82% - RG স্লটের Mighty Dragon",
     "70% - JILI স্লটের Dragon & Tiger",
     "78% - PG স্লটের Secrets of Cleopatra",
     "71% - BNG স্লটের Sun of Egypt 2",
@@ -55,7 +55,7 @@ monday: {
     "69% - JILI স্লটের Dragon Treasure",
     "76% - PP স্লটের Barn Festival",
     "72% - REVO স্লটের Alchemy Book",
-    "71% - PG স্লটের Prosperity Fortune Tree",
+    "71% - JILI স্লটের Prosperity Fortune Tree",
     "87% - WAZ স্লটের  36 Coins Score The Jackpot",
   ],
   "3am-9am": [
@@ -71,7 +71,7 @@ monday: {
 // Tuesday
 tuesday: {
   "9am-3pm": [
-    "76% - JILI স্লটের Mines",
+    "76% - JILI স্লটের Fortune Gems 2",
     "79% - JILI স্লটের Super Ace",
     "79% - JILI স্লটের Aztec Priestess",
     "88% - SPB-INST ক্রাশখেলা Aviator",
@@ -92,8 +92,8 @@ tuesday: {
   ],
   "3am-9am": [
     "71% - PP স্লটের Aztec Gems Deluxe",
-    "71% - PG স্লটের Prosperity Fortune Tree",
-    "81% - JILI ফিসিং Golden Land",
+    "71% - JILI স্লটের Prosperity Fortune Tree",
+    "81% - RG স্লটের Bubble Bliss",
     "82% - PG স্লটের  Wild Ape #3258",
     "71% - BNG স্লটের Sun of Egypt 2",
     "81% - BGM-INST ক্রাশখেলা  Plinko",
@@ -104,7 +104,7 @@ wednesday: {
   "9am-3pm": [
     "75% - BNG স্লটের Black Wolf",
     "76% - BNG স্লটের Book of Wizard",
-    "82% - JILI ফিসিং Dinosaur Tycoon II",
+    "82% - RG স্লটের Mighty Dragon",
     "88% - JILI স্লটের Crazy Hunter",
     "71% - PP স্লটের Aztec Gems Deluxe",
     "82% - WAZ স্লটের  36 Coins Score The Jackpot",
@@ -113,7 +113,7 @@ wednesday: {
     "79% - JILI স্লটের Aztec Priestess",
     "70% - PP স্লটের Gates of Olympus™",
     "69% - JILI স্লটের Dragon Treasure",
-    "73% - HAK ক্রাশ খেলা Mines",
+    "73% - HAK ক্রাশ খেলা Fortune Gems 2",
     "81% - GG ফিশিং  Shark Hunter",
     "82% - PG স্লটের  Wild Ape #3258",
   ],
@@ -137,7 +137,7 @@ wednesday: {
 thursday: {
   "9am-3pm": [
     "71% - JILI স্লটের Money Coming",
-    "81% - JILI ফিসিং Golden Land",
+    "81% - RG স্লটের Bubble Bliss",
     "76% - BNG স্লটের Book of Wizard",
     "85% - GG ফিশিং  Shark Hunter",
     "84% - WAZ স্লটের  36 Coins Score The Jackpot",
@@ -152,7 +152,7 @@ thursday: {
   ],
   "9pm-3am": [
     "81% - JILI ফিসিং Bombing Fishing",
-    "81% - JILI ফিসিং Golden Land",
+    "81% - RG স্লটের Bubble Bliss",
     "78% - BNG স্লটের Buddha Fortune",
     "71% - PG স্লটের Reel Love",
     "86% - PG স্লটের  Wild Ape #3258",
@@ -162,7 +162,7 @@ thursday: {
     "79% - JILI স্লটের Super Ace",
     "76% - BNG স্লটের Book of Wizard",
     "71% - PG স্লটের Wild Bounty Showdown",
-    "81% - JILI ফিসিং Golden Land",
+    "81% - RG স্লটের Bubble Bliss",
     "80% - WAZ স্লটের  9 Lions",
     "83% - PG স্লটের  Wild Ape #3258",
   ],
@@ -186,7 +186,7 @@ friday: {
     "85% - JILI স্লটের Crazy Hunter",
   ],
   "9pm-3am": [
-    "81% - JILI স্লটের Mines",
+    "81% - JILI স্লটের Fortune Gems 2",
     "71% - BNG স্লটের Sun of Egypt 2",
     "75% - JILI স্লটের Fortune Gems",
     "81% - JILI ফিসিং Bombing Fishing",
@@ -213,16 +213,16 @@ saturday: {
   "3pm-9pm": [
     "71% - JILI স্লটের Money Coming",
     "81% - JILI ফিসিং Royal Fishing",
-    "82% - JILI ফিসিং Dinosaur Tycoon II",
+    "82% - RG স্লটের Mighty Dragon",
     "71% - BNG স্লটের Sun of Egypt 2",
     "82% - PG স্লটের  Wild Ape #3258",
     "77% - BNG স্লটের Black Wolf",
     "88% - JILI স্লটের Crazy Hunter",
   ],
   "9pm-3am": [
-    "71% - PG স্লটের Prosperity Fortune Tree",
-    "81% - JILI ফিসিং Golden Land",
-    "81% - JILI স্লটের Mines",
+    "71% - JILI স্লটের Prosperity Fortune Tree",
+    "81% - RG স্লটের Bubble Bliss",
+    "81% - JILI স্লটের Fortune Gems 2",
     "75% - BNG স্লটের Black Wolf",
     "83% - WAZ স্লটের  9 Lions",
   ],

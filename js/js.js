@@ -55,7 +55,7 @@ monday: {
     "69% - JILI স্লটের Dragon Treasure",
     "76% - PP স্লটের Barn Festival",
     "72% - REVO স্লটের Alchemy Book",
-    "71% - JILI স্লটের Prosperity Fortune Tree",
+    "71% - PG স্লটের Prosperity Fortune Tree",
     "87% - WAZ স্লটের  36 Coins Score The Jackpot",
   ],
   "3am-9am": [
@@ -92,7 +92,7 @@ tuesday: {
   ],
   "3am-9am": [
     "71% - PP স্লটের Aztec Gems Deluxe",
-    "71% - JILI স্লটের Prosperity Fortune Tree",
+    "71% - PG স্লটের Prosperity Fortune Tree",
     "81% - RG স্লটের Bubble Bliss",
     "82% - PG স্লটের  Wild Ape #3258",
     "71% - BNG স্লটের Sun of Egypt 2",
@@ -220,7 +220,7 @@ saturday: {
     "88% - JILI স্লটের Crazy Hunter",
   ],
   "9pm-3am": [
-    "71% - JILI স্লটের Prosperity Fortune Tree",
+    "71% - PG স্লটের Prosperity Fortune Tree",
     "81% - RG স্লটের Bubble Bliss",
     "81% - JILI স্লটের Fortune Gems 2",
     "75% - BNG স্লটের Black Wolf",

@@ -6,7 +6,7 @@ sunday: {
   "9am-3pm": [
     "81% - RG স্লটের Bubble Bliss",
     "81% - JILI স্লটের Fortune Gems 2",
-    "72% - REVO স্লটের Alchemy Book",
+    "72% - RG স্লটের Vegas Night",
     "81% - PG স্লটের  Dragon Hatch 2",
   ],
   "3pm-9pm": [
@@ -54,7 +54,7 @@ monday: {
   "9pm-3am": [
     "69% - JILI স্লটের Dragon Treasure",
     "76% - PP স্লটের Barn Festival",
-    "72% - REVO স্লটের Alchemy Book",
+    "72% - RG স্লটের Vegas Night",
     "71% - PG স্লটের Prosperity Fortune Tree",
     "87% - WAZ স্লটের  36 Coins Score The Jackpot",
   ],
@@ -207,7 +207,7 @@ saturday: {
     "75% - SPB-INST ক্রাশখেলা Aviator",
     "71% - BNG স্লটের Sun of Egypt 2",
     "76% - PP স্লটের Barn Festival",
-    "72% - REVO স্লটের Alchemy Book",
+    "72% - RG স্লটের Vegas Night",
     "85% - WAZ স্লটের  36 Coins Score The Jackpot",
   ],
   "3pm-9pm": [

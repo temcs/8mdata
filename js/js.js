@@ -24,7 +24,7 @@ sunday: {
       "81% - PG স্লটের Cocktail Nights",
       "86% - JILI স্লটের Super Ace",
       "88% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
-      "79% - RG স্লটের Dragon Destiny"
+      "79% - RG স্লটের Dragon Destiny",
       "89% - SPB-INST এর Aviator"
     ],
     "3am-9am": [
@@ -50,7 +50,7 @@ monday: {
       "86% - JILI স্লটের Fortune Gems 3",
       "79% - JILI স্লটের Boxing King",
       "82% - JDB-SLOT স্লটের Blossom Of Wealth",
-      "87% - BNG স্লটের Wukong"
+      "87% - BNG স্লটের Wukong",
       "88% - SPB-INST এর Aviator"
     ],
     "9pm-3am": [

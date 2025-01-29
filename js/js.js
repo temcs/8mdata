@@ -7,6 +7,7 @@ sunday: {
       "84% - JDB-SLOT স্লটের Magic Ace Wild Lock",
       "88% - Evo ক্যাসিনোর Crazy Time A",
       "77% - PG স্লটের Bikini Paradise",
+      "89% - SPB-INST এর Aviator",
       "82% - RG স্লটের Cai Shen Coin",
       "79% - BNG স্লটের Sun of Egypt 2"
     ],
@@ -14,6 +15,7 @@ sunday: {
       "83% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
       "85% - PG স্লটের Treasures of Aztec",
       "78% - JILI স্লটের Crazy 777",
+      "87% - SPB-INST এর Aviator",
       "87% - Evo ক্যাসিনোর crazytime",
       "80% - Evo ক্যাসিনোর Funky Time"
     ],
@@ -23,13 +25,14 @@ sunday: {
       "86% - JILI স্লটের Super Ace",
       "88% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
       "79% - RG স্লটের Dragon Destiny"
+      "89% - SPB-INST এর Aviator"
     ],
     "3am-9am": [
-      "89% - JDB-SLOT স্লটের Trump Card",
+      "82% - JDB-SLOT স্লটের Trump Card",
       "77% - FACHAI-SLOT স্লটের WIN WIN NEKO",
       "85% - RG স্লটের Bank Fever 2",
       "83% - JILI স্লটের Money Coming",
-      "78% - SPB-INST এর Aviator"
+      "88% - SPB-INST এর Aviator"
     ]
   },
 // Monday
@@ -37,16 +40,18 @@ monday: {
   "9am-3pm": [
       "86% - BNG স্লটের Black Wolf",
       "84% - PG স্লটের Wild Bounty Showdown",
-      "89% - Evo ক্যাসিনোর Funky Time",
+      "84% - Evo ক্যাসিনোর Funky Time",
+      "86% - SPB-INST এর Aviator",
       "85% - FACHAI-SLOT স্লটের GOLDEN GENIE",
       "77% - RG স্লটের Cai Shen Coin"
     ],
     "3pm-9pm": [
       "80% - PP-LIVE এর Sweet Bonanza Candyland",
-      "88% - JILI স্লটের Fortune Gems 3",
+      "86% - JILI স্লটের Fortune Gems 3",
       "79% - JILI স্লটের Boxing King",
       "82% - JDB-SLOT স্লটের Blossom Of Wealth",
       "87% - BNG স্লটের Wukong"
+      "88% - SPB-INST এর Aviator"
     ],
     "9pm-3am": [
       "86% - Evo ক্যাসিনোর dragontiger",
@@ -56,7 +61,8 @@ monday: {
       "84% - FACHAI-SLOT স্লটের WIN WIN NEKO"
     ],
     "3am-9am": [
-      "87% - PG স্লটের Treasures of Aztec",
+      "86% - PG স্লটের Treasures of Aztec",
+      "89% - SPB-INST এর Aviator",
       "85% - JDB-SLOT স্লটের Flirting Scholar Tang",
       "88% - BNG স্লটের Sun of Egypt 2",
       "79% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
@@ -68,6 +74,7 @@ tuesday: {
   "9am-3pm": [
       "84% - JILI স্লটের Alibaba",
       "80% - Evo ক্যাসিনোর crazytime",
+      "85% - SPB-INST এর Aviator",
       "78% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
       "87% - RG স্লটের Pink Blossom",
       "83% - PG স্লটের Cocktail Nights"
@@ -76,6 +83,7 @@ tuesday: {
       "88% - PG স্লটের Bikini Paradise",
       "82% - Evo ক্যাসিনোর moneywheel",
       "77% - BNG স্লটের 3 China Pots",
+      "87% - SPB-INST এর Aviator",
       "85% - JILI স্লটের Money Coming",
       "86% - RG স্লটের Bank Fever 2"
     ],
@@ -89,7 +97,7 @@ tuesday: {
     "3am-9am": [
       "79% - PG স্লটের Wild Bounty Showdown",
       "84% - JILI স্লটের Fortune Gems 2",
-      "78% - SPB-INST এর Aviator",
+      "86% - SPB-INST এর Aviator",
       "80% - JILI স্লটের Fortune Gems 3",
       "86% - Evo ক্যাসিনোর Funky Time"
     ]
@@ -101,12 +109,14 @@ wednesday: {
       "84% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
       "77% - PP-LIVE এর Lucky 6 Roulette",
       "82% - JILI স্লটের Super Ace",
+      "84% - SPB-INST এর Aviator",
       "87% - BNG স্লটের Black Wolf"
     ],
     "3pm-9pm": [
       "83% - JDB-SLOT স্লটের Magic Ace Wild Lock",
       "81% - PG স্লটের Treasures of Aztec",
       "79% - Evo ক্যাসিনোর Crazy Time A",
+      "83% - SPB-INST এর Aviator",
       "85% - JDB-SLOT স্লটের Trump Card",
       "88% - RG স্লটের Dragon Destiny"
     ],
@@ -121,6 +131,7 @@ wednesday: {
       "77% - JILI স্লটের Boxing King",
       "82% - Evo ক্যাসিনোর dragontiger",
       "89% - BNG স্লটের Sun of Egypt 4",
+      "89% - SPB-INST এর Aviator",
       "81% - RG স্লটের Cai Shen Coin",
       "85% - Evo ক্যাসিনোর moneywheel"
     ]
@@ -131,6 +142,7 @@ thursday: {
       "86% - Evo ক্যাসিনোর Crazy Time A",
       "80% - Evo ক্যাসিনোর crazytime",
       "83% - RG স্লটের Bank Fever 2",
+      "87% - SPB-INST এর Aviator",
       "88% - JILI স্লটের Super Ace",
       "85% - BNG স্লটের 3 Coin Volcanoes"
     ],
@@ -145,6 +157,7 @@ thursday: {
       "87% - RG স্লটের Dragon Destiny",
       "89% - Evo ক্যাসিনোর Funky Time",
       "83% - BNG স্লটের Sun of Egypt 4",
+      "91% - SPB-INST এর Aviator",
       "88% - JDB-SLOT স্লটের Flirting Scholar Tang",
       "84% - FACHAI-SLOT স্লটের CRAZY BUFFALO"
     ],
@@ -153,7 +166,7 @@ thursday: {
       "81% - Evo ক্যাসিনোর dragontiger",
       "78% - JDB-SLOT স্লটের Magic Ace Wild Lock",
       "86% - JILI স্লটের Alibaba",
-      "80% - SPB-INST এর Aviator"
+      "84% - SPB-INST এর Aviator"
     ]
   },
 // Friday
@@ -163,11 +176,12 @@ friday: {
       "84% - RG স্লটের Cai Shen Coin",
       "88% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
       "82% - Evo ক্যাসিনোর dragontiger",
+      "85% - SPB-INST এর Aviator",
       "85% - JILI স্লটের Fortune Gems 3"
     ],
     "3pm-9pm": [
       "81% - JDB-SLOT স্লটের Blossom Of Wealth",
-      "78% - SPB-INST এর Aviator",
+      "83% - SPB-INST এর Aviator",
       "89% - JDB-SLOT স্লটের Trump Card",
       "79% - RG স্লটের Pink Blossom",
       "86% - PG স্লটের Cocktail Nights"
@@ -176,11 +190,12 @@ friday: {
       "84% - Evo ক্যাসিনোর Funky Time",
       "88% - JILI স্লটের Boxing King",
       "85% - Evo ক্যাসিনোর Crazy Time A",
+      "89% - SPB-INST এর Aviator",
       "80% - PG স্লটের Wild Bounty Showdown",
       "83% - JDB-SLOT স্লটের Magic Ace Wild Lock"
     ],
     "3am-9am": [
-      "79% - SPB-INST এর Aviator",
+      "92% - SPB-INST এর Aviator",
       "77% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
       "86% - RG স্লটের Dragon Destiny",
       "81% - PG স্লটের Treasures of Aztec",
@@ -193,6 +208,7 @@ saturday: {
       "89% - PG স্লটের Bikini Paradise",
       "82% - FACHAI-SLOT স্লটের GOLDEN GENIE",
       "77% - JILI স্লটের Money Coming",
+      "88% - SPB-INST এর Aviator",
       "85% - Evo ক্যাসিনোর dragontiger",
       "84% - BNG স্লটের Black Wolf"
     ],
@@ -208,7 +224,7 @@ saturday: {
       "85% - PG স্লটের Wild Bounty Showdown",
       "86% - BNG স্লটের Wukong",
       "77% - Evo ক্যাসিনোর Funky Time",
-      "80% - SPB-INST এর Aviator"
+      "86% - SPB-INST এর Aviator"
     ],
     "3am-9am": [
       "89% - SPB-INST এর Aviator",

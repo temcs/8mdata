@@ -103,7 +103,6 @@ monday: {
 tuesday: {
 "9am-3pm": [
 "81% -  BGM ক্রাশের PlinkoXY",
-"72% -  SPB ক্রাশের Aviator",
 "81% -  JILI স্লটের Dragon Treasure ",
 "83% -  REEVO স্লটের Electro Goals",
 "81% -  JILI স্লটের Dragon Treasure ",
@@ -172,13 +171,10 @@ wednesday: {
 "92% -  SPB-INST এর Aviator",
 "73% -  PP স্লটের Big Bass - Hold & Spinner™",
 "76% -  NAGA স্লটের Gladiators",
-"83% -  REEVO স্লটের Electro Goals",
-"72% -  SPB ক্রাশের Aviator"
+"83% -  REEVO স্লটের Electro Goals"
 ],
 "9pm-3am": [
 "75% -  BGM স্লটের Avalon: The Lost Kingdom",
-"72% -  SPB ক্রাশের Aviator",
-"72% -  SPB ক্রাশের Aviator",
 "79% -  PLAYSON স্লটের Divine Dragon Hold and Win",
 "73% -  PP স্লটের Sweet Bonanza",
 "86% -  SPB-INST এর Aviator",
@@ -259,7 +255,6 @@ friday: {
 "73% -  FACHAI স্লটের LUCKY 9",
 "87% -  SPB-INST এর Aviator",
 "76% -  NAGA স্লটের Empress of the Black Seas",
-"72% -  SPB ক্রাশের Aviator",
 "78% -  RICH88 স্লটের Dragon Legend",
 "73% -  PG স্লটের Wild Bandito"
 ],
@@ -289,7 +284,6 @@ friday: {
 ],
 "3am-9am": [
 "76% -  pp ক্যাসিনোর Fortune Roulette",
-"72% -  SPB ক্রাশের Aviator",
 "78% -  RICH88 স্লটের Future Stars",
 "87% -  SPB-INST এর Aviator",
 "73% -  PG স্লটের Prosperity Fortune Tree",

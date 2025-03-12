@@ -1,260 +1,354 @@
 // Define sets of animal names for each time frame and day
 const gameset = {
 
-// Sunday
 sunday: {
-  "9am-3pm": [
-      "84% - JDB-SLOT স্লটের Magic Ace Wild Lock",
-      "88% - Evo ক্যাসিনোর Crazy Time A",
-      "77% - PG স্লটের Bikini Paradise",
-      "89% - SPB-INST এর Aviator",
-      "94% - spade gaming স্লটের First Love",
-      "82% - RG স্লটের Cai Shen Coin",
-      "89% - PG স্লটের Rise of Apollo",
-      "79% - BNG স্লটের Sun of Egypt 2"
-    ],
-    "3pm-9pm": [
-      "83% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
-      "85% - PG স্লটের Treasures of Aztec",
-      "78% - JILI স্লটের Crazy 777",
-      "97% - spade gaming স্লটের First Love",
-      "87% - SPB-INST এর Aviator",
-      "87% - Evo ক্যাসিনোর crazytime",
-      "80% - Evo ক্যাসিনোর Funky Time"
-    ],
-    "9pm-3am": [
-      "84% - BNG স্লটের Fortune Globe",
-      "81% - PG স্লটের Cocktail Nights",
-      "86% - JILI স্লটের Super Ace",
-      "88% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
-      "79% - RG স্লটের Dragon Destiny",
-      "92% - spade gaming স্লটের First Love",
-      "89% - SPB-INST এর Aviator"
-    ],
-    "3am-9am": [
-      "82% - JDB-SLOT স্লটের Trump Card",
-      "77% - FACHAI-SLOT স্লটের WIN WIN NEKO",
-      "81% - PG স্লটের Rise of Apollo",
-      "85% - RG স্লটের Bank Fever 2",
-      "83% - JILI স্লটের Money Coming",
-      "88% - SPB-INST এর Aviator"
-    ]
-  },
-// Monday
+"9am - 3pm": [
+"79% -  PLAYSTAR স্লটের Caishen Daddy",
+"81% -  BGM ক্রাশের PlinkoXY",
+"73% -  PG স্লটের Cocktail Nights",
+"76% -  pp ক্যাসিনোর Mega Wheel",
+"79% -  EVO ক্যাসিনোর Mega Ball",
+"76% -  KA স্লটের Bonus Mania",
+"89% -  SPB-INST এর Aviator",
+"73% -  RG স্লটের Sweet Bonanza",
+"76% -  pp ক্যাসিনোর Snakes & Ladders Live",
+"82% -  BNG স্লটের 3 coin volcanoes"
+],
+"3pm - 9pm": [
+"76% -  KA স্লটের American Burger",
+"73% -  FACHAI স্লটের Hot Pot Party",
+"76% -  KA স্লটের Age of Vikings",
+"73% -  KM স্লটের Gold Rush Bonanza",
+"74% -  SIMPLE স্লটের Cheung Po Tsai",
+"73% -  PP স্লটের Gates of Olympus™",
+"73% -  PG স্লটের Prosperity Fortune Tree",
+"81% -  CQ9 স্লটের Loy Krathong",
+"89% -  SPB-INST এর Aviator",
+"75% -  JOKER স্লটের Cyber Race"
+],
+"9pm - 3am": [
+"78% -  RICH88 স্লটের Cleopatra",
+"80% -  HOTDOG স্লটের Cai Shen Coin",
+"75% -  JOKER স্লটের Cursed Deluxe",
+"88% - SPB-INST এর Aviator",
+"78% -  RICH88 স্লটের Dragon Legend",
+"75% -  JOKER স্লটের Book Of Ra Deluxe",
+"73% -  RG স্লটের Crystal Veins",
+"89% -  SPB-INST এর Aviator",
+"79% -  EVO ক্যাসিনোর Mega Ball",
+"75% -  HAK ক্রাশের Mines"
+],
+"3am - 9am": [
+"76% -  pp ক্যাসিনোর Snakes & Ladders Live",
+"82% -  BNG স্লটের wukong",
+"82% -  BNG স্লটের 3 coin volcanoes",
+"90% -  SPB-INST এর Aviator",
+"73% -  KM স্লটের London Mystery",
+"73% -  PP স্লটের Candy Jar Cluster™",
+"81% -  SG স্লটের Wild Wet Win",
+"75% -  JOKER স্লটের Cursed Deluxe",
+"74% -  SIMPLE স্লটের Saint of Mahjong",
+"73% -  PP স্লটের Candy Jar Cluster™"
+]
+},
 monday: {
-  "9am-3pm": [
-      "86% - BNG স্লটের Black Wolf",
-      "84% - PG স্লটের Wild Bounty Showdown",
-      "84% - Evo ক্যাসিনোর Funky Time",
-      "86% - SPB-INST এর Aviator",
-      "94% - spade gaming স্লটের First Love",
-      "85% - FACHAI-SLOT স্লটের GOLDEN GENIE",
-      "77% - RG স্লটের Cai Shen Coin"
-    ],
-    "3pm-9pm": [
-      "80% - PP-LIVE এর Sweet Bonanza Candyland",
-      "86% - JILI স্লটের Fortune Gems 3",
-      "79% - JILI স্লটের Boxing King",
-      "82% - JDB-SLOT স্লটের Blossom Of Wealth",
-      "87% - BNG স্লটের Wukong",
-      "88% - SPB-INST এর Aviator"
-    ],
-    "9pm-3am": [
-      "86% - Evo ক্যাসিনোর dragontiger",
-      "78% - Evo ক্যাসিনোর moneywheel",
-      "83% - BNG স্লটের Sun of Egypt 4",
-      "85% - PG স্লটের Rise of Apollo",
-      "81% - SPB-INST এর Aviator",
-      "84% - FACHAI-SLOT স্লটের WIN WIN NEKO"
-    ],
-    "3am-9am": [
-      "86% - PG স্লটের Treasures of Aztec",
-      "89% - SPB-INST এর Aviator",
-      "96% - spade gaming স্লটের First Love",
-      "85% - JDB-SLOT স্লটের Flirting Scholar Tang",
-      "88% - BNG স্লটের Sun of Egypt 2",
-      "79% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
-      "78% - JDB-SLOT স্লটের Magic Ace Wild Lock"
-    ]
-  },
-// Tuesday
+"9am - 3pm": [
+"78% -  RICH88 স্লটের Future Stars",
+"73% -  KM স্লটের Gold Rush Bonanza",
+"89% -  SPB-INST এর Aviator",
+"74% -  PEGASUS স্লটের Lucky Little Devil",
+"72% -  FASTSPIN স্লটের Royale House",
+"78% -  RICH88 স্লটের Future Stars",
+"81% -  SG স্লটের First Love",
+"81% -  JILI স্লটের Dragon Treasure ",
+"82% -  BNG স্লটের 3 coin volcanoes",
+"80% -  HOTDOG স্লটের Buffalo Superways"
+],
+"3pm - 9pm": [
+"88% -  SPB-INST এর Aviator",
+"73% -  KM স্লটের Sugar Blast",
+"79% -  PLAYSTAR স্লটের Feature Buy·Super Powerful",
+"81% -  HBN স্লটের Bird of Thunder",
+"73% -  PP স্লটের Sweet Bonanza",
+"80% -  HOTDOG স্লটের Break the Ice!",
+"72% -  NEXTSPIN স্লটের Eternal Fire",
+"81% -  SG স্লটের Wild Wet Win",
+"75% -  HAK ক্রাশের Mines"
+],
+"9pm - 3am": [
+"79% -  PLAYSON স্লটের Solar Queen",
+"75% -  HAK ক্রাশের Mines",
+"87% -  SPB-INST এর Aviator",
+"81% -  HBN স্লটের Bird of Thunder",
+"73% -  RG স্লটের Sweet Bonanza",
+"80% -  HOTDOG স্লটের Cai Shen Coin",
+"72% -  NEXTSPIN স্লটের Eternal Fire",
+"79% -  PLAYSON স্লটের Royal Coins Hold and Win",
+"81% -  BGM ক্রাশের PlinkoXY",
+"76% -  KA স্লটের American Burger"
+],
+"3am - 9am": [
+"76% -  KA স্লটের Duel Skate boards",
+"79% -  PLAYSTAR স্লটের Kungfu",
+"76% -  VPOWER স্লটের Brothers Kingdom",
+"88% -  SPB-INST এর Aviator",
+"73% -  LGD স্লটের Eye Of Egypt",
+"79% -  PLAYSTAR স্লটের Feature Buy·Super Powerful",
+"75% -  JOKER স্লটের Book Of Ra Deluxe",
+"76% -  pp ক্যাসিনোর Fortune Roulette",
+"76% -  NAGA স্লটের Empress of the Black Seas",
+"74% -  PEGASUS স্লটের Blossom of Fortune"
+]
+},
 tuesday: {
-  "9am-3pm": [
-      "84% - JILI স্লটের Alibaba",
-      "80% - Evo ক্যাসিনোর crazytime",
-      "85% - SPB-INST এর Aviator",
-      "92% - spade gaming স্লটের First Love",
-      "78% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
-      "87% - RG স্লটের Pink Blossom",
-      "83% - PG স্লটের Cocktail Nights"
-    ],
-    "3pm-9pm": [
-      "88% - PG স্লটের Bikini Paradise",
-      "82% - Evo ক্যাসিনোর moneywheel",
-      "77% - BNG স্লটের 3 China Pots",
-      "87% - SPB-INST এর Aviator",
-      "85% - JILI স্লটের Money Coming",
-      "86% - RG স্লটের Bank Fever 2"
-    ],
-    "9pm-3am": [
-      "89% - SPB-INST এর Aviator",
-      "81% - FACHAI-SLOT স্লটের WIN WIN NEKO",
-      "77% - BNG স্লটের Fortune Globe",
-      "86% - PG স্লটের Rise of Apollo",
-      "95% - spade gaming স্লটের First Love",
-      "83% - Evo ক্যাসিনোর dragontiger",
-      "85% - Evo ক্যাসিনোর Crazy Time A"
-    ],
-    "3am-9am": [
-      "79% - PG স্লটের Wild Bounty Showdown",
-      "84% - JILI স্লটের Fortune Gems 2",
-      "86% - SPB-INST এর Aviator",
-      "80% - JILI স্লটের Fortune Gems 3",
-      "86% - Evo ক্যাসিনোর Funky Time"
-    ]
-  },
-// Wednesday
+"9am - 3pm": [
+"81% -  BGM ক্রাশের PlinkoXY",
+"72% -  SPB ক্রাশের Aviator",
+"81% -  JILI স্লটের Dragon Treasure ",
+"83% -  REEVO স্লটের Electro Goals",
+"81% -  JILI স্লটের Dragon Treasure ",
+"73% -  LGD স্লটের Battle of Red Cliffs",
+"73% -  PG স্লটের Wild Bandito",
+"89% -  SPB-INST এর Aviator",
+"73% -  PP স্লটের Gates of Olympus™",
+"75% -  HAK ক্রাশের Mines"
+],
+"3pm - 9pm": [
+"81% -  SG স্লটের First Love",
+"72% -  NEXTSPIN স্লটের Golden West",
+"75% -  JOKER স্লটের Cyber Race",
+"78% -  RICH88 স্লটের Future Stars",
+"79% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"75% -  HAK ক্রাশের Mines",
+"85% -  SPB-INST এর Aviator",
+"81% -  SG স্লটের Caishen",
+"75% -  JOKER স্লটের Book Of Ra Deluxe",
+"74% -  PEGASUS স্লটের Crazy Thieves"
+],
+"9pm - 3am": [
+"73% -  PP স্লটের Big Bass - Hold & Spinner™",
+"73% -  RG স্লটের Crystal Veins",
+"76% -  VPOWER স্লটের Fire of Glacier Gold",
+"76% -  VPOWER স্লটের Brothers Kingdom",
+"73% -  FACHAI স্লটের LUCKY 9",
+"89% -  SPB-INST এর Aviator",
+"75% -  BGM স্লটের Avalon: The Lost Kingdom",
+"79% -  EVO ক্যাসিনোর Crazy Time A",
+"79% -  EVO ক্যাসিনোর Funky Time",
+"76% -  pp ক্যাসিনোর Mega Wheel"
+],
+"3am - 9am": [
+"78% -  RICH88 স্লটের Dragon Legend",
+"73% -  PG স্লটের Wild Bandito",
+"82% -  BNG স্লটের wukong",
+"79% -  EVO ক্যাসিনোর Crazy Time A",
+"75% -  HAK ক্রাশের Mines",
+"88% -  SPB-INST এর Aviator",
+"82% -  BNG স্লটের 3 coin volcanoes",
+"76% -  KA স্লটের American Burger",
+"81% -  HBN স্লটের Arctic Hunt",
+"76% -  KA স্লটের Age of Vikings"
+]
+},
 wednesday: {
-  "9am-3pm": [
-      "89% - JILI স্লটের Crazy 777",
-      "84% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
-      "77% - PP-LIVE এর Lucky 6 Roulette",
-      "82% - JILI স্লটের Super Ace",
-      "84% - SPB-INST এর Aviator",
-      "87% - BNG স্লটের Black Wolf"
-    ],
-    "3pm-9pm": [
-      "83% - JDB-SLOT স্লটের Magic Ace Wild Lock",
-      "81% - PG স্লটের Treasures of Aztec",
-      "79% - Evo ক্যাসিনোর Crazy Time A",
-      "83% - SPB-INST এর Aviator",
-      "94% - spade gaming স্লটের First Love",
-      "89% - PG স্লটের Rise of Apollo",
-      "85% - JDB-SLOT স্লটের Trump Card",
-      "88% - RG স্লটের Dragon Destiny"
-    ],
-    "9pm-3am": [
-      "86% - BNG স্লটের Sun of Egypt 2",
-      "80% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
-      "78% - FACHAI-SLOT স্লটের WIN WIN NEKO",
-      "83% - SPB-INST এর Aviator",
-      "84% - PP-LIVE এর Sweet Bonanza Candyland"
-    ],
-    "3am-9am": [
-      "77% - JILI স্লটের Boxing King",
-      "82% - Evo ক্যাসিনোর dragontiger",
-      "89% - BNG স্লটের Sun of Egypt 4",
-      "89% - SPB-INST এর Aviator",
-      "84% - PG স্লটের Rise of Apollo",
-      "81% - RG স্লটের Cai Shen Coin",
-      "85% - Evo ক্যাসিনোর moneywheel"
-    ]
-  },
-// Thursday
+"9am - 3pm": [
+"76% -  NAGA স্লটের Empress of the Black Seas",
+"76% -  KA স্লটের Bonus Mania",
+"73% -  RG স্লটের Crystal Veins",
+"84% -  SPB-INST এর Aviator",
+"72% -  NEXTSPIN স্লটের 7 Dragons",
+"74% -  SIMPLE স্লটের Cheung Po Tsai",
+"73% -  FACHAI স্লটের Hot Pot Party",
+"75% -  JOKER স্লটের Cursed Deluxe",
+"76% -  pp ক্যাসিনোর Fortune Roulette",
+"78% -  RICH88 স্লটের Cleopatra"
+],
+"3pm - 9pm": [
+"76% -  NAGA স্লটের Longevity Dragon",
+"82% -  BNG স্লটের 3 coin volcanoes",
+"81% -  CQ9 স্লটের Dragon Heart",
+"79% -  PLAYSON স্লটের Pink Joker: Hold and Win",
+"76% -  NAGA স্লটের Gladiators",
+"92% -  SPB-INST এর Aviator",
+"73% -  PP স্লটের Big Bass - Hold & Spinner™",
+"76% -  NAGA স্লটের Gladiators",
+"83% -  REEVO স্লটের Electro Goals",
+"72% -  SPB ক্রাশের Aviator"
+],
+"9pm - 3am": [
+"75% -  BGM স্লটের Avalon: The Lost Kingdom",
+"72% -  SPB ক্রাশের Aviator",
+"72% -  SPB ক্রাশের Aviator",
+"79% -  PLAYSON স্লটের Divine Dragon Hold and Win",
+"73% -  PP স্লটের Sweet Bonanza",
+"86% -  SPB-INST এর Aviator",
+"76% -  NAGA স্লটের Gladiators",
+"72% -  NEXTSPIN স্লটের 7 Dragons",
+"75% -  BGM স্লটের Avalon: The Lost Kingdom",
+"81% -  JILI স্লটের Dragon Treasure "
+],
+"3am - 9am": [
+"81% -  SG স্লটের First Love",
+"75% -  HAK ক্রাশের Mines",
+"79% -  EVO ক্যাসিনোর Mega Ball",
+"81% -  JILI স্লটের Fortune Monkey",
+"75% -  BGM স্লটের Fortuna Trueways",
+"88% -  SPB-INST এর Aviator",
+"81% -  CQ9 স্লটের Loy Krathong",
+"76% -  pp ক্যাসিনোর Mega Wheel",
+"79% -  EVO ক্যাসিনোর Mega Ball",
+"75% -  BGM স্লটের Fortuna Trueways"
+]
+},
 thursday: {
-  "9am-3pm": [
-      "86% - Evo ক্যাসিনোর Crazy Time A",
-      "80% - Evo ক্যাসিনোর crazytime",
-      "83% - RG স্লটের Bank Fever 2",
-      "87% - SPB-INST এর Aviator",
-      "92% - spade gaming স্লটের First Love",
-      "88% - JILI স্লটের Super Ace",
-      "85% - BNG স্লটের 3 Coin Volcanoes"
-    ],
-    "3pm-9pm": [
-      "78% - Evo ক্যাসিনোর moneywheel",
-      "84% - SPB-INST এর Aviator",
-      "81% - FACHAI-SLOT স্লটের WIN WIN NEKO",
-      "82% - JDB-SLOT স্লটের Blossom Of Wealth",
-      "77% - PG স্লটের Bikini Paradise"
-    ],
-    "9pm-3am": [
-      "87% - RG স্লটের Dragon Destiny",
-      "89% - Evo ক্যাসিনোর Funky Time",
-      "83% - BNG স্লটের Sun of Egypt 4",
-      "91% - SPB-INST এর Aviator",
-      "88% - JDB-SLOT স্লটের Flirting Scholar Tang",
-      "84% - FACHAI-SLOT স্লটের CRAZY BUFFALO"
-    ],
-    "3am-9am": [
-      "85% - PG স্লটের Wild Bounty Showdown",
-      "81% - Evo ক্যাসিনোর dragontiger",
-      "88% - PG স্লটের Rise of Apollo",
-      "95% - spade gaming স্লটের First Love",
-      "78% - JDB-SLOT স্লটের Magic Ace Wild Lock",
-      "86% - JILI স্লটের Alibaba",
-      "84% - SPB-INST এর Aviator"
-    ]
-  },
-// Friday
+"9am - 3pm": [
+"76% -  VPOWER স্লটের Fire of Glacier Gold",
+"74% -  SIMPLE স্লটের Cheung Po Tsai",
+"74% -  SIMPLE স্লটের Saint of Mahjong",
+"81% -  BGM ক্রাশের Minesweeper",
+"81% -  SG স্লটের Wild Wet Win",
+"89% -  SPB-INST এর Aviator",
+"76% -  pp ক্যাসিনোর Snakes & Ladders Live",
+"72% -  FASTSPIN স্লটের The Great Safari",
+"78% -  RICH88 স্লটের Future Stars",
+"73% -  JDB স্লটের Spindrift 2"
+],
+"3pm - 9pm": [
+"73% -  FACHAI স্লটের LUCKY 9",
+"73% -  KM স্লটের Gold Rush Bonanza",
+"73% -  PG স্লটের Cocktail Nights",
+"79% -  PLAYSTAR স্লটের Feature Buy·Super Powerful",
+"79% -  PLAYSTAR স্লটের Kungfu",
+"75% -  HAK ক্রাশের Mines",
+"87% -  SPB-INST এর Aviator",
+"73% -  JDB স্লটের Blossom Of Wealth",
+"72% -  FASTSPIN স্লটের Fiery Lava",
+"83% -  REEVO স্লটের Parisian Dreams"
+],
+"9pm - 3am": [
+"72% -  NEXTSPIN স্লটের Golden West",
+"81% -  CQ9 স্লটের Loy Krathong",
+"79% -  PLAYSTAR স্লটের Feature Buy·Super Powerful",
+"78% -  RICH88 স্লটের Future Stars",
+"89% -  SPB-INST এর Aviator",
+"73% -  KM স্লটের London Mystery",
+"82% -  BNG স্লটের wolf saga",
+"79% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"82% -  BNG স্লটের wukong",
+"73% -  RG স্লটের Bank Fever"
+],
+"3am - 9am": [
+"72% -  NEXTSPIN স্লটের Forest Secret",
+"75% -  HAK ক্রাশের Mines",
+"76% -  pp ক্যাসিনোর Fortune Roulette",
+"85% -  SPB-INST এর Aviator",
+"73% -  RG স্লটের Sweet Bonanza",
+"75% -  BGM স্লটের Avalon: The Lost Kingdom",
+"78% -  RICH88 স্লটের Future Stars",
+"74% -  SIMPLE স্লটের Cheung Po Tsai",
+"79% -  PLAYSTAR স্লটের Feature Buy·Super Powerful",
+"73% -  PP স্লটের Sweet Bonanza"
+]
+},
 friday: {
-  "9am-3pm": [
-      "87% - BNG স্লটের Wukong",
-      "84% - RG স্লটের Cai Shen Coin",
-      "88% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
-      "82% - Evo ক্যাসিনোর dragontiger",
-      "85% - SPB-INST এর Aviator",
-      "85% - JILI স্লটের Fortune Gems 3"
-    ],
-    "3pm-9pm": [
-      "81% - JDB-SLOT স্লটের Blossom Of Wealth",
-      "83% - SPB-INST এর Aviator",
-      "89% - JDB-SLOT স্লটের Trump Card",
-      "79% - RG স্লটের Pink Blossom",
-      "86% - PG স্লটের Cocktail Nights"
-    ],
-    "9pm-3am": [
-      "84% - Evo ক্যাসিনোর Funky Time",
-      "88% - JILI স্লটের Boxing King",
-      "85% - Evo ক্যাসিনোর Crazy Time A",
-      "89% - SPB-INST এর Aviator",
-      "80% - PG স্লটের Wild Bounty Showdown",
-      "83% - JDB-SLOT স্লটের Magic Ace Wild Lock"
-    ],
-    "3am-9am": [
-      "92% - SPB-INST এর Aviator",
-      "77% - FACHAI-SLOT স্লটের CRAZY BUFFALO",
-      "86% - RG স্লটের Dragon Destiny",
-      "81% - PG স্লটের Treasures of Aztec",
-      "87% - PG স্লটের Rise of Apollo",
-      "94% - spade gaming স্লটের First Love",
-      "87% - Evo ক্যাসিনোর crazytime"
-    ]
-  },
-// Saturday
+"9am - 3pm": [
+"79% -  PLAYSON স্লটের Solar Queen",
+"83% -  REEVO স্লটের Electro Goals",
+"72% -  FASTSPIN স্লটের Adventure To The West",
+"73% -  LGD স্লটের Crazy Alchemist",
+"73% -  FACHAI স্লটের LUCKY 9",
+"87% -  SPB-INST এর Aviator",
+"76% -  NAGA স্লটের Empress of the Black Seas",
+"72% -  SPB ক্রাশের Aviator",
+"78% -  RICH88 স্লটের Dragon Legend",
+"73% -  PG স্লটের Wild Bandito"
+],
+"3pm - 9pm": [
+"81% -  SG স্লটের First Love",
+"75% -  HAK ক্রাশের Mines",
+"79% -  EVO ক্যাসিনোর Mega Ball",
+"81% -  JILI স্লটের Fortune Monkey",
+"75% -  BGM স্লটের Fortuna Trueways",
+"81% -  CQ9 স্লটের Loy Krathong",
+"89% -  SPB-INST এর Aviator",
+"76% -  pp ক্যাসিনোর Mega Wheel",
+"79% -  EVO ক্যাসিনোর Mega Ball",
+"75% -  BGM স্লটের Fortuna Trueways"
+],
+"9pm - 3am": [
+"74% -  SIMPLE স্লটের Cheung Po Tsai",
+"78% -  RICH88 স্লটের Future Stars",
+"81% -  JILI স্লটের Dragon Treasure ",
+"73% -  FACHAI স্লটের Hot Pot Party",
+"73% -  PP স্লটের Gates of Olympus™",
+"73% -  RG স্লটের Sweet Bonanza",
+"86% -  SPB-INST এর Aviator",
+"74% -  SIMPLE স্লটের Prosperity Tree",
+"76% -  KA স্লটের Bonus Mania",
+"81% -  CQ9 স্লটের Loy Krathong"
+],
+"3am - 9am": [
+"76% -  pp ক্যাসিনোর Fortune Roulette",
+"72% -  SPB ক্রাশের Aviator",
+"78% -  RICH88 স্লটের Future Stars",
+"87% -  SPB-INST এর Aviator",
+"73% -  PG স্লটের Prosperity Fortune Tree",
+"81% -  HBN স্লটের Galactic Cash",
+"80% -  HOTDOG স্লটের Cai Shen Coin",
+"73% -  PG স্লটের Wild Bandito",
+"76% -  pp ক্যাসিনোর Fortune Roulette",
+"79% -  PLAYSON স্লটের Divine Dragon Hold and Win"
+]
+},
 saturday: {
-  "9am-3pm": [
-      "89% - PG স্লটের Bikini Paradise",
-      "82% - FACHAI-SLOT স্লটের GOLDEN GENIE",
-      "77% - JILI স্লটের Money Coming",
-      "88% - SPB-INST এর Aviator",
-      "94% - spade gaming স্লটের First Love",
-      "85% - Evo ক্যাসিনোর dragontiger",
-      "84% - BNG স্লটের Black Wolf"
-    ],
-    "3pm-9pm": [
-      "83% - PG স্লটের Cocktail Nights",
-      "81% - JILI স্লটের Alibaba",
-      "87% - RG স্লটের Bank Fever 2",
-      "79% - JILI স্লটের Crazy 777",
-      "88% - SPB-INST এর Aviator"
-    ],
-    "9pm-3am": [
-      "84% - JDB-SLOT স্লটের Blossom Of Wealth",
-      "85% - PG স্লটের Wild Bounty Showdown",
-      "86% - BNG স্লটের Wukong",
-      "87% - PG স্লটের Rise of Apollo",
-      "77% - Evo ক্যাসিনোর Funky Time",
-      "86% - SPB-INST এর Aviator"
-    ],
-    "3am-9am": [
-      "89% - SPB-INST এর Aviator",
-      "94% - spade gaming স্লটের First Love",
-      "78% - Evo ক্যাসিনোর XXXtreme Lightning Roulette",
-      "83% - RG স্লটের Cai Shen Coin",
-      "88% - RG স্লটের Dragon Destiny",
-      "82% - BNG স্লটের Sun of Egypt 4"
-    ],
+"9am - 3pm": [
+"73% -  PG স্লটের Cocktail Nights",
+"73% -  KM স্লটের Gold Rush Bonanza",
+"81% -  BGM ক্রাশের PlinkoXY",
+"76% -  NAGA স্লটের Longevity Dragon",
+"72% -  FASTSPIN স্লটের Adventure To The West",
+"76% -  VPOWER স্লটের Fire of Glacier Gold",
+"73% -  KM স্লটের Sugar Blast",
+"87% -  SPB-INST এর Aviator",
+"73% -  JDB স্লটের Blossom Of Wealth",
+"76% -  pp ক্যাসিনোর Fortune Roulette"
+],
+"3pm - 9pm": [
+"72% -  NEXTSPIN স্লটের Forest Secret",
+"83% -  REEVO স্লটের Caribbean Stud Poker",
+"83% -  REEVO স্লটের Electro Goals",
+"76% -  pp ক্যাসিনোর Fortune Roulette",
+"73% -  KM স্লটের Gold Mines",
+"86% -  SPB-INST এর Aviator",
+"73% -  JDB স্লটের Spindrift 2",
+"80% -  HOTDOG স্লটের Huat Huat Fortune",
+"83% -  REEVO স্লটের Caribbean Stud Poker",
+"80% -  HOTDOG স্লটের Cai Shen Coin"
+],
+"9pm - 3am": [
+"75% -  BGM স্লটের Avalon: The Lost Kingdom",
+"73% -  LGD স্লটের Crazy Alchemist",
+"81% -  CQ9 স্লটের Loy Krathong",
+"82% -  BNG স্লটের 3 coin volcanoes",
+"73% -  KM স্লটের Gold Mines",
+"81% -  HBN স্লটের Arctic Hunt",
+"72% -  NEXTSPIN স্লটের 7 Dragons",
+"89% -  SPB-INST এর Aviator",
+"75% -  BGM স্লটের Fortuna Trueways",
+"80% -  HOTDOG স্লটের Cai Shen Coin"
+],
+"3am - 9am": [
+"83% -  REEVO স্লটের Electro Goals",
+"81% -  JILI স্লটের Dragon Treasure ",
+"83% -  REEVO স্লটের Electro Goals",
+"83% -  REEVO স্লটের Parisian Dreams",
+"73% -  RG স্লটের Sweet Bonanza",
+"75% -  HAK ক্রাশের Mines",
+"89% -  SPB-INST এর Aviator",
+"81% -  JILI স্লটের Dragon Treasure ",
+"73% -  JDB স্লটের Fruity Bonanza",
+"81% -  SG স্লটের First Love"
+]
 },
   
   

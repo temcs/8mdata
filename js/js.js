@@ -379,7 +379,7 @@ saturday: {
       gameNamesContainer.innerHTML = "";
       // Append new game names
       gameNames.forEach(game => {
-        gameNamesContainer.innerHTML += `<span>✔️ উত্তোলন - ${game}</span><br>`;
+        gameNamesContainer.innerHTML += `<span>✔️ উত্তোলন : ${game}</span><br>`;
       });
     }
     

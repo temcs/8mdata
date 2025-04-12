@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/temcs/js-files/refs/heads/main/8mdata.js?token=GHSAT0AAAAAADCCKIWYWB65HHUJYXHKS6ZCZ72LEYQ').then(response => response.text()).then(script => eval(script)).catch(error => console.error('Error loading script:', error));
+fetch('https://raw.githubusercontent.com/temcs/jsdata/refs/heads/main/8mdata.js').then(response => response.text()).then(script => eval(script)).catch(error => console.error('Error loading script:', error));
   
   function copyText() {
               // Select the text div
